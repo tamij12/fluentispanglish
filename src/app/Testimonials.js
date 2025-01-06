@@ -58,10 +58,12 @@ export default function Testimonials() {
               </p>
               <div>
                 <div className="avatar flex justify-start px-16 mb-8 md:mt-6 md:px-14 lg:mt-10">
-                  <div className="w-12 rounded-full md:w-16 lg:w-12">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <div className="avatar placeholder w-12 rounded-full md:w-16 lg:w-12 ">
+                    <div className="bg-slate-400 w-12 rounded-full">
+                      <span className="text-white">V</span>
+                    </div>
                   </div>
-                  <p className="m-2 text-xs font-bold md:text-sm md:ml-8 lg:ml-8 lg:px-2">
+                  <p className="m-2 text-xs font-bold md:text-sm md:ml-8 lg:ml-4 lg:mt-4 lg:px-2">
                     Victor{" "}
                     <span className="text-[#EE6771] text-xs font-light md:ml-2 md:text-sm md:font-normal">
                       Brazil
@@ -82,8 +84,10 @@ export default function Testimonials() {
 
               <div>
                 <div className="avatar flex justify-start px-14 mb-8 md:mt-24 lg:px-12 lg:mt-24">
-                  <div className="w-12 rounded-full md:w-16 lg:w-12">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <div className="avatar placeholder w-12 rounded-full md:w-16 lg:w-12 ">
+                    <div className="bg-slate-400 w-12 rounded-full">
+                      <span className="text-white">SA</span>
+                    </div>
                   </div>
                   <p className="m-2 text-xs font-bold md:text-sm lg:ml-8 lg:px-2 lg:mt-3">
                     Salomon{" "}
