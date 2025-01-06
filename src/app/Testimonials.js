@@ -60,7 +60,12 @@ export default function Testimonials() {
                 <div className="avatar flex justify-start px-16 mb-8 md:mt-6 md:px-14 lg:mt-10">
                   <div className="avatar placeholder w-12 rounded-full md:w-16 lg:w-12 ">
                     <div className="bg-slate-400 w-12 rounded-full">
-                      <span className="text-white">V</span>
+                      <a
+                        className="text-white"
+                        href="https://preply.com/en/tutor/200554#:~:text=I%20had%20a%20great%20class%20with%20Oscar%2C%20He%20has%20a%20great%20accent!%20Our%20first%20class%20we%20discussed%20about%20somethings%20regarding%20to%20bussiness%20english%20who%20is%20one%20of%20my%20goals%20to%20improvements.%20I%20really%20urge%20you%20to%20have%20a%20class%20with%20him."
+                      >
+                        V
+                      </a>
                     </div>
                   </div>
                   <p className="m-2 text-xs font-bold md:text-sm md:ml-8 lg:ml-4 lg:mt-4 lg:px-2">
@@ -86,7 +91,12 @@ export default function Testimonials() {
                 <div className="avatar flex justify-start px-14 mb-8 md:mt-24 lg:px-12 lg:mt-24">
                   <div className="avatar placeholder w-12 rounded-full md:w-16 lg:w-12 ">
                     <div className="bg-slate-400 w-12 rounded-full">
-                      <span className="text-white">SA</span>
+                      <a
+                        className="text-white"
+                        href="https://preply.com/en/tutor/200554#:~:text=Oscar%20is%20a%20great%20teacher!%20He%20is%20knowledgeable%20and%20is%20very%20patient.%20He%20also%20answers%20my%20questions%20very%20clearly!%20I%20highly%20recommend%20Oscar%20as%20a%20Tutor."
+                      >
+                        SA
+                      </a>
                     </div>
                   </div>
                   <p className="m-2 text-xs font-bold md:text-sm lg:ml-8 lg:px-2 lg:mt-3">

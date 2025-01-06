@@ -2,7 +2,7 @@ import React from "react";
 
 import { SocialIcon } from "react-social-icons";
 import { useRouter } from "next/navigation";
-import { Flip, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
+import { JackInTheBox } from "react-awesome-reveal";
 
 export default function Hero() {
   const router = useRouter();
@@ -36,7 +36,7 @@ export default function Hero() {
           <JackInTheBox>
           <div className="max-w-md text-[#1B263B] lg:max-w-5xl lg:mt-16">
             <h1 className="mb-6 text-2xl font-black md:text-4xl md:mb-16 lg:text-6xl">
-              NUEVOS CURSOS COMENZANDO EL 6 de Enero, 2025
+              NUEVOS CURSOS COMENZANDO EL 13 de Enero, 2025
             </h1>
             <div className="mb-6 flex px-6 justify-evenly">
               <button onClick={handleClickFB} className="md:hidden transition duration-75 ease-in-out hover:scale-110 hover:drop-shadow-2xl">
