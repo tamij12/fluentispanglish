@@ -7,7 +7,7 @@ const karla = Karla({
 });
 
 export const metadata = {
-  title: "FluentiSpanglish",
+  title: "FluentinSpanglish",
   description: "By Oscar",
 };
 
